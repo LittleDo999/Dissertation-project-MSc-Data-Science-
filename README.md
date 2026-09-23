@@ -124,6 +124,15 @@ The current notebook retains saved exploratory outputs but requires the followin
 
 The CellPhoneDB preparation shown does not filter `Tissue` to tumour-only cells. The upstream data include normal and tumour tissue labels, so these calls should not be described as tumour-only or as separate tumour-versus-normal communication analyses. The analysed immune-cell data do not represent the complete tumour and stromal microenvironment. The results should be interpreted within the cell populations and genes retained in the input.
 
+## Supplementary full-gene analysis
+
+An additional CellPhoneDB Method 2 analysis was completed on 23 September 2026 using 43,817 cells and all 13,538 available genes. Separate runs used global and subcluster annotations.
+
+The supplementary result tables are stored in `supplementary/fullgenes_20260923/`. No additional figures were generated from these tables for the submitted dissertation.
+The dissertation's main communication figures retain the original 2,000-highly-variable-gene analysis.
+
+The full expression input is not included in this repository.
+
 ## References and acknowledgements
 
 - Zhang et al. (2020), original single-cell study: [publication record](https://pubmed.ncbi.nlm.nih.gov/32302573/).
